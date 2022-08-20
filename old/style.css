@@ -1,0 +1,48 @@
+#navbar{
+    background-color: rgb(255, 255, 255);
+}
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*CSS Variables*/
+:root{
+    --navbar-height: 59px;
+}
+
+/*Navigation Bar*/
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation Bar:*/
+
+/*Navigation Bar: Logo and Image*/
+#logo{
+
+    margin: 34px 45px;
+}
+
+#logo img{
+    height: 56px;
+    margin: 34px 45px;
+}
+
+/*Navigation Bar: Line Styling*/
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar::before{
+    content: "";
+}
+/*Navigation Bar: Logo and Image*/
+#navbar ul li{
+    /*color: white*/
+    list-style: none;
+    font-size: 1.3rem;
+}
